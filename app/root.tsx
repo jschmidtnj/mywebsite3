@@ -90,7 +90,6 @@ const Document = withEmotionCache(
 export default function App() {
   return (
     <Document>
-      <GitHubBanner />
       {/* You can change the theme colors here. example: theme={RefineThemes.Magenta} */}
       <ChakraProvider theme={RefineThemes.Orange}>
         <RefineKbarProvider>
